@@ -14,7 +14,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "watchLists": {
+      "type": "hasMany",
+      "model": "watchList",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

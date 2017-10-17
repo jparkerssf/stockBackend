@@ -6,11 +6,8 @@
     "validateUpsert": true
   },
   "properties": {
-    "userId": {
-      "type": "number"
-    },
-    "stockSymbol":{
-      "type":"string"
+    "stockSymbol": {
+      "type": "string"
     }
   },
   "validations": [],
